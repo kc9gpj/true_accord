@@ -1,8 +1,9 @@
 ## Overview
-     This program is a command-line based debt calculation tool, and test suite. Debt.py contains the core logic,
-     and it has been broken down into small re-usable methods to allow easier extendeability. Check out the steps
-     below to install and run. With more time I would have liked to include a more intensive test suite with VCR
-     recording, and I could have broken down core logic to be even more extendable and re-usable.
+     This program is a command-line based debt calculation tool, and test suite. Debt.py contains the
+     core logic, and it has been broken down into small re-usable methods to allow easier
+     extendeability. Check out the steps below to install and run. With more time I would have liked
+     to include a more intensive test suite with VCR recording, and I could have broken down core logic
+     to be even more extendable and re-usable.
 
 ## Setup Environment (Mac)
 
