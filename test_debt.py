@@ -31,14 +31,12 @@ class TestDebt(unittest.TestCase):
         amount = remaining_amount(1, 200, payments)
         self.assertEqual(amount, 150)
 
-
     def test_due_date(self):
         due_date = get_next_due_date("2020-09-28", "WEEKLY")
         self.assertEqual(due_date, '2021-03-08')
         due_date = get_next_due_date("2020-09-28", "BI-WEEKLY")
         self.assertEqual(due_date, '2021-03-15')
 
-    
     def test_payment_plan(self):
         payment_plans = [{
             "amount_to_pay": 12345,
